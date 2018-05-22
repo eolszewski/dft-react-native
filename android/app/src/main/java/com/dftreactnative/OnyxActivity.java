@@ -11,6 +11,7 @@ import com.facebook.react.ReactActivity;
  */
 
 public class OnyxActivity extends ReactActivity {
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +21,9 @@ public class OnyxActivity extends ReactActivity {
     public void onResume() {
         super.onResume();
         Onyx configuredOnyx = MainApplication.getConfiguredOnyx();
-        configuredOnyx.create(this);
-        configuredOnyx.capture();
+        if (configuredOnyx != null) {
+            configuredOnyx.create(this);
+            configuredOnyx.capture();
+        }
     }
 }

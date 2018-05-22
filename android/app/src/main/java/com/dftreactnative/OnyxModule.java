@@ -2,7 +2,6 @@ package com.dftreactnative;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
@@ -63,7 +62,7 @@ public class OnyxModule extends ReactContextBaseJavaModule {
     void navigateToOnyx() {
         Activity activity = getCurrentActivity();
         if (activity != null) {
-            Intent intent = new Intent(activity, OnyxActivity.class);
+            Intent intent = new Intent(activity, OnyxSetupActivity.class);
             activity.startActivity(intent);
         }
     }
