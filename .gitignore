@@ -10,3 +10,4 @@
 .externalNativeBuild
 /*.jks
 license.xml
+node_modules/
