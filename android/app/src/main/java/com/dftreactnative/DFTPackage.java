@@ -10,15 +10,15 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * Created by ericolszewski on 5/22/18.
+ * Created by ericolszewski on 5/29/18.
  * Transmute
  */
 
-public class OnyxPackage implements ReactPackage {
+public class DFTPackage  implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();
-        modules.add(new OnyxModule(reactContext));
+        modules.add(new DFTModule(reactContext));
         return modules;
     }
 
