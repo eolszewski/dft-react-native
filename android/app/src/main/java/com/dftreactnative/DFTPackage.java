@@ -14,7 +14,7 @@ import java.util.List;
  * Transmute
  */
 
-public class DFTPackage  implements ReactPackage {
+public class DFTPackage implements ReactPackage {
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         List<NativeModule> modules = new ArrayList<>();

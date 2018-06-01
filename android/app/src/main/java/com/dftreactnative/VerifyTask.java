@@ -4,9 +4,11 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.dft.onyx.core;
+import com.facebook.react.bridge.ReactApplicationContext;
 
 import org.opencv.android.Utils;
 import org.opencv.core.Mat;
@@ -17,7 +19,7 @@ import org.opencv.imgproc.Imgproc;
  * Transmute
  */
 
-public class VerifyTask  extends AsyncTask<VerifyPayload, Void, Float> {
+public class VerifyTask extends AsyncTask<VerifyPayload, Void, Float> {
     private Exception mException = null;
     private Context mContext = null;
 
@@ -57,6 +59,7 @@ public class VerifyTask  extends AsyncTask<VerifyPayload, Void, Float> {
             dialog.show();
         } else {
             Toast.makeText(mContext, createMatchString(matchScore), Toast.LENGTH_SHORT).show();
+            Log.i("nah man", "reactApplicationContext 2: " + mContext);
         }
     }
 
@@ -66,8 +69,10 @@ public class VerifyTask  extends AsyncTask<VerifyPayload, Void, Float> {
             matchString = new String("Failed");
         } else {
             matchString = new String("Match");
+
         }
         matchString += " (Score = " + String.format("%.2f", score) + ")";
+        DFTModule.triggerAlert(matchString);
 
         return matchString;
     }

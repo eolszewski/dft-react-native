@@ -3,192 +3,408 @@
 
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_90e77fc8dabba5fd2056f094eb78549b26af2f17.jar" />
+        revision="26.0.2"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_1f59d0f37a0beb86b9cf79745d3042ea80e5dd0e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision-common/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_a1276df4abeade75af183cd80209af2f800a3b62.jar" />
+        revision="26.0.2"
+        sha1="1fddd828aa2365a453562d62b07da4a2d94a24ad">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-common-12.0.1_0229fdeec45ceaa6038b8f9c6fc7ef5ca004f0af.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_9af16e5d2867ac7afc16366efaf782d346208af9.jar" />
+        revision="26.0.2"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_513dd7395a3f87e3fa6607568ae87dfd21bec7fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_f56f1774678037f22f1378cc0891d9a75d2157f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_126f55bebe826c2db44dcbca3337770b654bdc2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.dft.android/onyx-core/4.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0317a7dee1caa83ebc3525abeec08c9d3517fc33">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.dft.android-onyx-core-4.2.0_ae1b0712318e1c0badc585d6bf9eeb82ca1d8487.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_9de6d09458cfa25c6b1d44853b57c08c5610a216.jar" />
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_9de6d09458cfa25c6b1d44853b57c08c5610a216.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e835305887dabf1becd03fb1598257e252289226.jar" />
+        revision="26.0.2"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ed50f7e7507ec6b98291bdea22ddaf822a028be6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_f47ead0f695d417e09fd0b3996de7e9be0637567.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_d19e10ec4150180bd94068cdbdb920983ecb2349.jar" />
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_d19e10ec4150180bd94068cdbdb920983ecb2349.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.0/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_a4602207132e04f259b076be11c552dfd173c50d.jar" />
+        revision="26.0.2"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/support-annotations-27.1.0_ac3a9e3deca63f008d525b1736c537feb9800f45.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_9ee1e90cecd4b106387e95e926ffd0038099509f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_1c0981686c0c0b2ca3179cb6928aef126052da33.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_18ceb978275365f4c2f084cf7bc7c2ddf9b12cf3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_18ec16aa78fc0f772fca68a870df20983d31e849.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_d1a0f33706b8d8c60fb3fd75a150aa073b2b58ad.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_f79ddbef0edc1e2a235fcd4439ec71343b3b0b00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.55.4_16514bd6739bb978d21f9af7eb6a218b3166136b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_dd48b612019b7ba1c087d2d89fc70a5853fcf882.jar" />
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_105ea462f572635e7acd6e32abc44406c61cc18c.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_459a7525f81a65c6401cc3c1a4f866c02f254ba3.jar" />
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_459a7525f81a65c6401cc3c1a4f866c02f254ba3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.dft.android/onyx-core/4.2.0/jars/libs/opencv-android-2.4.13.2.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_28fc5f7295461c3a0fd0ee525486bd135c2ee214.jar" />
+        revision="26.0.2"
+        sha1="475ed64b799f40e6f7d592ceb62b41bb89be6ce1">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/opencv-android-2.4.13.2_f715ccdfa49fdc64348dd6521edb61bd01d3b6aa.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_7e0c66c2c6fb7ed6fd37daaee1ebe84e5b39ba01.jar" />
+        revision="26.0.2"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.9.1_7d9a1ad7d01fe01eb50e634c014ff5ca7e6be9e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_49a35381fcab750cb754f06c5a1388ff1f48a740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.1.0_1e4296de5b131bed5532cf82e24b81673398c295.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_e5a989f6475f0eb51e08b3eac7bec730e4c6a785.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_a079cba074ca827f1c58dd59ba445bf0cfc8df46.jar" />
     </item>
     <item
         is-multidex="false"
         jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
+        revision="26.0.2"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_896b282d824160b666c2aff7b850336966e242ec.jar" />
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_896b282d824160b666c2aff7b850336966e242ec.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.55.4/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_ec1982b31b06c755cd84a3ce5ee3c4325c2c3af2.jar" />
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_9c65fbbf3ed4093d781370d00723169cc09fe014.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/ericolszewski/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/12.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/dft-react-native/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_10378842a92bfe697d96bb8d99388626c3496ddf.jar" />
+        revision="26.0.2"
+        sha1="a38a8974c8d066800237d22a86df2e88cb9e065c">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-12.0.1_2309f4adc3796fdc32fa3d7ba9c07d856f5d5705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_e835305887dabf1becd03fb1598257e252289226.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_279987645fb5039e72f79e594b234772a519b63b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.dft.android/onyx-camera/1.0.11/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="58e83f4f8e3da3bfd34552e3b5788eb2c879b467">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.dft.android-onyx-camera-1.0.11_a2d0fec4fc2ae492481eccef913da6787d453052.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.1.0_7f63c325138f6dd35bf172998aacec7a6608793a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_28fc5f7295461c3a0fd0ee525486bd135c2ee214.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.dft.android/android-rest-framework/1.0.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ff3ef15a2ad747e6271e46210ebd65197881e324">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.dft.android-android-rest-framework-1.0.3_cb940138186f5b92e7de12eeb7ef93bff5b04861.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/dftreactnative/react-native-camera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25566f728a6e430293abe197d10c6bdcc8c46e4e">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/dftreactnative-react-native-camera-unspecified_40f6265940d3dcf6e7668fa235602194be829b61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/common-1.0.0_9aeb0a26c22b16b6e510aec8cd7c63c13a332ac5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.1.0_02d3d0e404e19e05e263188703b0b1af6188b016.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_a17dbf3fd472bda69a480bc231b72a43aeacb2fe.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/exifinterface/27.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="0d6df4057d1620a785f5bd2e69dd0d7866f3613c">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-exifinterface-27.1.0_fdc80b1361f9ccf88b6a6e002eef2ea0f627216c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_02020d88d12969bbcde7bd55560cb900ba5c6a61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="22569eca3029ab00583c332a2be220cdbf091b35">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-12.0.1_1f45b3e451b53d2629caf667242142b32719d372.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_f79ddbef0edc1e2a235fcd4439ec71343b3b0b00.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cc95ad466da44800955b79689023485ea39924a3">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-12.0.1_84d1fa739d4967714227c7d16a3d7bff5611ca92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.github.react-native-community/cameraview/d529251d24c0a367a28eea28f0eac2269d12f772/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e64d3bd4020c2600a42923c3b493bbb2e81f1211">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.github.react-native-community-cameraview-d529251d24c0a367a28eea28f0eac2269d12f772_2b0ad58647bb1efe0332f2910e677210aad5a52c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.1.0_af9b106998963d8ab74a4eb86346236be9c9f041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_4fb76a1ac565354124bc6280170f0313192fde08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.1.0_7de2096538c1466ab47fdd66d1231d250424ed50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/12.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ed8395f343c428cd55c60499f04323083f4ef0db">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-12.0.1_5e1bb93a0493000222fb0f6b2faaca318aff1527.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.0.2/b9cd8fc6bd15cb915735d34535db30ece0c44603/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_836cd3aee74cbe07029aaf0e477658940990e40d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.1.0_88eb50039ae48693290e27c2b1f2c0a3b32916cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/ericolszewski/Developer/Transmute/techspikes/test/dft-react-native/android/app/build/intermediates/pre-dexed/debug/android.arch.lifecycle-runtime-1.0.0_e851a9a0f45c2e6b185847cf026fb9b0d350edae.jar" />
     </item>
 
 </items>

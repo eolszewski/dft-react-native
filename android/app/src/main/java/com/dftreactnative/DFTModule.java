@@ -43,11 +43,12 @@ import javax.annotation.Nullable;
  * Transmute
  */
 
-public class DFTModule  extends ReactContextBaseJavaModule {
+public class DFTModule extends ReactContextBaseJavaModule {
     private final static String TAG = DFTActivity.class.getSimpleName();
     private final static String ENROLL_FILENAME = "enrolled_template.bin";
 
     private static DeviceEventManagerModule.RCTDeviceEventEmitter eventEmitter = null;
+    private Promise mPromise;
 
     DFTModule(ReactApplicationContext reactContext) {
         super(reactContext);
@@ -87,6 +88,8 @@ public class DFTModule  extends ReactContextBaseJavaModule {
 
     @ReactMethod
     void navigateToDFT() {
+        ReactApplicationContext reactApplicationContext = getReactApplicationContext();
+        Log.i(TAG, "reactApplicationContext: " + reactApplicationContext);
         Activity activity = getCurrentActivity();
         if (activity != null) {
             Intent intent = new Intent(activity, DFTActivity.class);
@@ -199,5 +202,12 @@ public class DFTModule  extends ReactContextBaseJavaModule {
      */
     static void triggerAlert(@Nonnull String message) {
         eventEmitter.emit("MyEventValue", message);
+    }
+
+    public void consumeCallback(String type) {
+        if(mPromise!=null) {
+            mPromise.resolve(type);
+            mPromise = null;
+        }
     }
 }

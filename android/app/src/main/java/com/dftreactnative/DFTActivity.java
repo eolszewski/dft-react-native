@@ -258,6 +258,7 @@ public class DFTActivity extends ReactActivity {
             if (mEnrolledTemplate != null) {
                 VerifyTask verifyTask = new VerifyTask(getApplicationContext());
                 verifyTask.execute(new VerifyPayload(mEnrolledTemplate, processedBitmap));
+                finish();
             }
         }
 
