@@ -2,7 +2,6 @@ package com.dftreactnative;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -14,6 +13,11 @@ import com.dft.onyxcamera.config.OnyxConfigurationBuilder;
 import com.dft.onyxcamera.config.OnyxError;
 import com.dft.onyxcamera.config.OnyxResult;
 import com.dft.onyxcamera.ui.reticles.Reticle;
+import com.dftreactnative.MainApplication;
+import com.dftreactnative.OnyxModule;
+import com.dftreactnative.VerifyPayload;
+import com.dftreactnative.VerifyTask;
+import com.facebook.react.ReactActivity;
 
 import org.opencv.android.OpenCVLoader;
 
@@ -26,12 +30,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.StreamCorruptedException;
 
-/**
- * Created by ericolszewski on 5/22/18.
- * Transmute
- */
-
-public class OnyxActivity extends AppCompatActivity {
+public class OnyxActivity extends ReactActivity {
     private final static String TAG = OnyxActivity.class.getSimpleName();
     private final static String ENROLL_FILENAME = "enrolled_template.bin";
 
@@ -151,20 +150,22 @@ public class OnyxActivity extends AppCompatActivity {
     }
 
     private void displayResults(OnyxResult onyxResult) {
+        Log.i(TAG, "Quality: " + onyxResult.getMetrics().getFocusQuality());
         if (mEnrolledTemplate != null) {
             VerifyTask verifyTask = new VerifyTask(getApplicationContext());
-            verifyTask.execute(new VerifyPayload(mEnrolledTemplate, onyxResult.getProcessedFingerprintBitmap()));
+            verifyTask.execute(new VerifyPayload(mEnrolledTemplate, onyxResult.getProcessedFingerprintImage()));
             finish();
         } else if (onyxResult.getMetrics().getFocusQuality() > 50) {
             Toast.makeText(getApplicationContext(), "Saving Fingerprint Template", Toast.LENGTH_SHORT).show();
             mCurrentTemplate = onyxResult.getFingerprintTemplate();
             enrollCurrentTemplate();
-            OnyxModule.triggerAlert(mCurrentTemplate.getCustomId());
+            OnyxModule.triggerSaveAlert(true);
             finish();
         } else {
             Toast.makeText(getApplicationContext(), "Please Try Again", Toast.LENGTH_SHORT).show();
             Onyx configuredOnyx = MainApplication.getConfiguredOnyx();
             configuredOnyx.create(activity);
+            OnyxModule.triggerAlert(false);
             configuredOnyx.capture();
         }
     }

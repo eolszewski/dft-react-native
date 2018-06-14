@@ -7,16 +7,11 @@ import android.util.Log;
 
 import com.dft.onyx.FingerprintTemplate;
 import com.dft.onyx.core;
-import com.facebook.react.ReactInstanceManager;
-import com.facebook.react.ReactNativeHost;
 import com.facebook.react.bridge.Callback;
-import com.facebook.react.bridge.CatalystInstance;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
-import com.facebook.react.bridge.ReactContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
-import com.facebook.react.bridge.WritableNativeArray;
 import com.facebook.react.bridge.WritableNativeMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
 
@@ -46,6 +41,7 @@ import javax.annotation.Nullable;
 public class OnyxModule extends ReactContextBaseJavaModule {
     private final static String TAG = OnyxActivity.class.getSimpleName();
     private final static String ENROLL_FILENAME = "enrolled_template.bin";
+    private Callback mCallback;
 
     private static DeviceEventManagerModule.RCTDeviceEventEmitter eventEmitter = null;
 
@@ -82,6 +78,7 @@ public class OnyxModule extends ReactContextBaseJavaModule {
     public Map<String, Object> getConstants() {
         final Map<String, Object> constants = new HashMap<>();
         constants.put("MyEventName", "MyEventValue");
+        constants.put("SaveFingerprint", "SaveFingerprintValue");
         return constants;
     }
 
@@ -91,22 +88,6 @@ public class OnyxModule extends ReactContextBaseJavaModule {
         if (activity != null) {
             Intent intent = new Intent(activity, OnyxActivity.class);
             activity.startActivity(intent);
-        }
-    }
-
-    @ReactMethod
-    void getActivityName(@Nonnull Callback callback) {
-        Activity activity = getCurrentActivity();
-        if (activity != null) {
-            callback.invoke(activity.getClass().getSimpleName());
-        }
-    }
-
-    @ReactMethod
-    void getFingerPrintTemplate(@Nonnull Callback callback) {
-        Activity activity = getCurrentActivity();
-        if (activity != null) {
-            callback.invoke(activity.getClass().getSimpleName());
         }
     }
 
@@ -150,28 +131,6 @@ public class OnyxModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    void loadEnrolledTemplateFileName(@Nonnull Promise promise) {
-        Activity activity = getCurrentActivity();
-        if (activity != null) {
-            File enrolledFile = activity.getFileStreamPath(ENROLL_FILENAME);
-            promise.resolve(enrolledFile.getAbsolutePath());
-        }
-    }
-
-    @ReactMethod
-    void enrolledTemplateFileExists(@Nonnull Promise promise) {
-        Activity activity = getCurrentActivity();
-        if (activity != null) {
-            File enrolledFile = activity.getFileStreamPath(ENROLL_FILENAME);
-            if (enrolledFile.exists()) {
-                promise.resolve(true);
-            } else {
-                promise.resolve(false);
-            }
-        }
-    }
-
-    @ReactMethod
     void deleteEnrolledTemplateIfExists() {
         Activity activity = getCurrentActivity();
         if (activity != null) {
@@ -184,6 +143,7 @@ public class OnyxModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     void loadEnrolledTemplateFromData(@Nonnull String fingerprintData) {
+        Log.i(TAG, "Fingerprint Data: " + fingerprintData);
         Activity activity = getCurrentActivity();
         if (activity != null) {
             try {
@@ -208,6 +168,36 @@ public class OnyxModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
+    void loadEnrolledTemplateFileName(@Nonnull Promise promise) {
+        Activity activity = getCurrentActivity();
+        if (activity != null) {
+            File enrolledFile = activity.getFileStreamPath(ENROLL_FILENAME);
+            promise.resolve(enrolledFile.getAbsolutePath());
+        }
+    }
+
+    @ReactMethod
+    void enrolledTemplateFileExists(@Nonnull Promise promise) {
+        Activity activity = getCurrentActivity();
+        if (activity != null) {
+            File enrolledFile = activity.getFileStreamPath(ENROLL_FILENAME);
+            if (enrolledFile.exists()) {
+                promise.resolve(true);
+            } else {
+                promise.resolve(false);
+            }
+        }
+    }
+
+    @ReactMethod
+    void getActivityName(@Nonnull Callback callback) {
+        Activity activity = getCurrentActivity();
+        if (activity != null) {
+            callback.invoke(activity.getClass().getSimpleName());
+        }
+    }
+
+    @ReactMethod
     void getActivityNameAsPromise(@Nonnull Promise promise) {
         Activity activity = getCurrentActivity();
         if (activity != null) {
@@ -215,28 +205,20 @@ public class OnyxModule extends ReactContextBaseJavaModule {
         }
     }
 
-    @ReactMethod
-    void callJavaScript() {
-        Activity activity = getCurrentActivity();
-        if (activity != null) {
-            MainApplication application = (MainApplication) activity.getApplication();
-            ReactNativeHost reactNativeHost = application.getReactNativeHost();
-            ReactInstanceManager reactInstanceManager = reactNativeHost.getReactInstanceManager();
-            ReactContext reactContext = reactInstanceManager.getCurrentReactContext();
-
-            if (reactContext != null) {
-                CatalystInstance catalystInstance = reactContext.getCatalystInstance();
-                WritableNativeArray params = new WritableNativeArray();
-                params.pushString("Hello, JavaScript!");
-                catalystInstance.callFunction("JavaScriptVisibleToJava", "alert", params);
-            }
-        }
-    }
-
     /**
      * To pass an object instead of a simple string, create a {@link WritableNativeMap} and populate it.
      */
-    static void triggerAlert(@Nonnull String message) {
+    static void triggerAlert(boolean message) {
         eventEmitter.emit("MyEventValue", message);
+    }
+    static void triggerSaveAlert(boolean message) {
+        eventEmitter.emit("SaveFingerprintValue", message);
+    }
+
+    private void consumeCallback(String msg) {
+        if(mCallback!=null) {
+            mCallback.invoke(msg);
+            mCallback = null;
+        }
     }
 }

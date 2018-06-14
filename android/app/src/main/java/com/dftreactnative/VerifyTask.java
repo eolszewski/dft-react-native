@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.AsyncTask;
-import android.util.Log;
 import android.widget.Toast;
 
 import com.dft.onyx.core;
@@ -57,20 +56,22 @@ public class VerifyTask  extends AsyncTask<VerifyPayload, Void, Float> {
             AlertDialog dialog = builder.create();
             dialog.show();
         } else {
-            Toast.makeText(mContext, createMatchString(matchScore), Toast.LENGTH_SHORT).show();
+            createMatchString(matchScore);
         }
     }
 
     private String createMatchString(double score) {
         String matchString;
         if (score < 0.1) {
+            Toast.makeText(mContext, "Fingerprint Verification Failed", Toast.LENGTH_SHORT).show();
             matchString = new String("Failed");
+            OnyxModule.triggerAlert(false);
         } else {
+            Toast.makeText(mContext, "Fingerprint Verification Succeeded", Toast.LENGTH_SHORT).show();
             matchString = new String("Match");
-
+            OnyxModule.triggerAlert(true);
         }
         matchString += " (Score = " + String.format("%.2f", score) + ")";
-        OnyxModule.triggerAlert(matchString);
 
         return matchString;
     }

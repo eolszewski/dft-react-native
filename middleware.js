@@ -1,3 +1,6 @@
+const EthCrypto = require('eth-crypto');
+// const web3 = require('web3');
+
 export const sendCode = async (phone) => {
   const response = await fetch('https://us-central1-everid-44197.cloudfunctions.net/sendCode', {
     method: 'POST',
@@ -15,6 +18,24 @@ export const sendCode = async (phone) => {
   }
 
   return response.json();
+}
+
+export const testSigning = async () => {
+  const lowercaseAddress = "0xDbc23AE43a150ff8884B02Cea117b22D1c3b9796".toLowerCase();
+  console.log('lowercaseAddress: ', lowercaseAddress);
+  const payload = `{"birth_date":"2018-06-01T16:10:45.780Z","birth_place":"CA","child1_name":"Frank","child2_name":"Bob","child3_name":"Timmy","eth_address":"${lowercaseAddress}","father_name":"Jason","first_name":"Wendy","last_name":"Matthews","mother_name":"Wendy","nationality":"USA","phone_number":"+17138258982","photo":"QmWDdAuytJnMQqzUDL82p4JvJWjHX9HYqBC3jLjPNKjsKm","sex":"male","sibling1_name":"Barbara","sibling2_name":"Emily","sibling3_name":"Jan"}`
+  console.log(payload);
+  const private_key = "000000000000000000000000000000000000000000000000000000000000000c";
+
+  const messageHash = EthCrypto.hash.keccak256("\x19Ethereum Signed Message:\n" + payload.length + payload);
+
+  console.log('messageHash: ', messageHash);
+
+  const signature = EthCrypto.sign(private_key, messageHash);
+  // const signature2 = elliptic.ec('secp256k1').sign(messageHash, private_key, 'hex', { canonical: true })
+
+  console.log(signature);
+  // console.log(signature2);
 }
 
 export const verifyCode = async (phone, code) => {

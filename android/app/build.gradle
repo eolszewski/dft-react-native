@@ -94,13 +94,14 @@ def enableSeparateBuildPerCPUArchitecture = false
 def enableProguardInReleaseBuilds = false
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion "27.0.3"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         applicationId "com.dftreactnative"
         minSdkVersion 16
-        targetSdkVersion 27
+        targetSdkVersion 26
+        multiDexEnabled true
         versionCode 1
         versionName "1.0"
         ndk {
@@ -145,10 +146,10 @@ repositories {
 }
 
 dependencies {
-    compile project(':react-native-fs')
+    compile project(':react-native-camera')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:26.1.0"
-    implementation "com.dft.android:onyx-camera:5.0.3"
+    implementation "com.dft.android:onyx-camera:5.0.5"
     implementation "com.facebook.react:react-native:+"  // From node_modules
 }
 
